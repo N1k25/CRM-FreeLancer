@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular&display=swap);
+@font-face {
+	font-family: 'Graphik';
+	font-display: swap;
+	src: url("../fonts/Graphik-Regular.eot");
+	src: local("O"), url("../fonts/Graphik-Regular.woff") format("woff"),
+		url("../fonts/Graphik-Regular.ttf") format("truetype"),
+		url("../fonts/Graphik-Regular.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Graphik';
+	font-display: swap;
+	src: url("../fonts/Graphik-Medium.eot");
+	src: local("O"), url("../fonts/Graphik-Medium.woff") format("woff"),
+		url("../fonts/Graphik-Medium.ttf") format("truetype"),
+		url("../fonts/Graphik-Medium.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+}
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	line-height: 1;
+	font-family: Graphik;
+	font-size: 16px;
+	background-color: #181818;
+	color: #ffffff;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{
+	text-decoration: none;
+	color: #ffffff;
+}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+.__button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*------------------------------Header------------------------------*/
+.header {
+	height: 154px;
+	display: flex;
+	justify-content: center;
+}
+
+.header-container {
+	width: 1097px;
+	height: 119px;
+	padding: 0 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo img{
+	width: 206px;
+	height: 78px;
+}
+
+.menu-list {
+	display: flex;
+	align-items: center;
+}
+
+.menu-item:not(:last-child) {
+	margin: 0 31px 0 0;
+}
+.menu-item:hover{
+	text-decoration: underline;
+}
+.menu-item a{
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0.2px;
+	text-align: center;
+}
+
+.menu-btn {
+	width: 139px;
+	height: 52px;
+	border: 1px solid #ffffff;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 25px;
+	letter-spacing: 0.2px;
+}
+
+/*------------------------------     ------------------------------*/
