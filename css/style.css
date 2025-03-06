@@ -84,6 +84,7 @@ section{
 	height: 154px;
 	display: flex;
 	justify-content: center;
+	background-color: #000000;
 }
 
 .header-container {
@@ -130,6 +131,7 @@ section{
 /*------------------------------Work------------------------------*/
 .work {
 	height: 528px;
+	background-color: #000000;
 }
 
 .work-container {
@@ -176,4 +178,20 @@ section{
 	height: 65px;
 }
 
-/*------------------------------      ------------------------------*/
+/*------------------------------Screens------------------------------*/
+.screens {
+	height: 993px;
+	align-items: flex-start;
+	background-color: #000000;
+}
+
+.screens-container {
+	height: 841px;
+	width: 100%;
+	background-image: url('/img/screens.png');
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+/*------------------------------     ------------------------------*/
