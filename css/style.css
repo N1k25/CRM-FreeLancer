@@ -194,4 +194,101 @@ section{
 	background-size: contain;
 }
 
-/*------------------------------     ------------------------------*/
+/*------------------------------Features------------------------------*/
+.features {
+	height: 1112px;
+}
+
+.features-container {
+	width: 1088px;
+	height: 988px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.features-header {
+	width: 602px;
+	height: 149px;
+	text-align: center;
+}
+
+.features-title {
+	font-size: 52px;
+	line-height: 62px;
+	letter-spacing: 0.2px;
+}
+
+.features-text {
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 0.2px;
+	margin: 27px 0 0 0;
+}
+
+.features-body {
+	width: 100%;
+	height: 759px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.features-body-img {
+	width: 752px;
+	height: 759px;
+}
+
+.features-body-card {
+	width: 309px;
+	height: 651px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.features-body-card-item {
+	width: 269px;
+	height: 196px;
+}
+.features-body-card-item:last-child {
+	height: 169px;
+}
+
+.features-body-card-item-header {
+	height: 80px;
+	display: flex;
+}
+.features-body-card-item:last-child .features-body-card-item-header .features-body-card-item-header-title{
+	height: 50px;
+}
+.features-body-card-item:first-child .features-body-card-item-header .features-body-card-item-header-icon {
+	width: 31.49px;
+	height: 61.66px;
+}
+.features-body-card-item:nth-child(2) .features-body-card-item-header .features-body-card-item-header-icon {
+	width: 33px;
+	height: 60px;
+}
+.features-body-card-item:last-child .features-body-card-item-header .features-body-card-item-header-icon {
+	width: 41px;
+	height: 53px;
+}
+.features-body-card-item-header-title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 0.1px;
+	padding: 10px;
+}
+
+.features-body-card-item-text {
+	padding: 10px;
+	line-height: 24px;
+	letter-spacing: 0.2px;
+}
+
+/*------------------------------    ------------------------------*/
