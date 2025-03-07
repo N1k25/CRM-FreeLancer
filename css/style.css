@@ -74,6 +74,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	background-color: #4452FE;
 	border: none;
 }
+
+footer,
 section{
 	display: flex;
 	justify-content: center;
@@ -597,4 +599,104 @@ section{
 	height: 364px;
 }
 
-/*------------------------------    ------------------------------*/
+/*------------------------------Footer------------------------------*/
+.footer {
+	height: 437px;
+}
+
+.footer-container {
+	width: 1031px;
+	height: 223px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-menu {
+	width: 513px;
+	height: 100%;
+}
+
+.footer-menu-items {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-menu-item {
+	width: 121px;
+	height: 100%;
+}
+
+.footer-menu-item-title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 0.1px;
+	margin: 0 0 40px 0;
+}
+
+.footer-menu-list-item:hover {
+	text-decoration: underline;
+}
+
+.footer-menu-list-item:not(:last-child){
+	margin: 0 0 19px 0;
+}
+
+.footer-menu-list-item-link {
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0.2px;
+}
+
+.footer-contacts {
+	width: 319px;
+	height: 191px;
+}
+
+.footer-coordinates,
+.footer-tel {
+	display: flex;
+	align-items: center;
+}
+
+.footer-coordinates-icon {
+	width: 46px;
+	height: 46px;
+}
+
+.footer-coordinates-text,
+.footer-tel_number {
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0.2px;
+}
+
+.footer-coordinates-text{
+	margin: 0 0 0 8px;
+}
+
+.footer-tel {
+	margin: 10px 0;
+}
+
+.footer-tel-icon {
+	width: 35px;
+	height: 35px;;
+}
+
+.footer-tel_number {
+	margin: 0 0 0 10px;
+}
+
+.footer-social {
+	width: 171px;
+	height: 81px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-social-item {
+	width: 41px;
+	height: 41px;
+}
