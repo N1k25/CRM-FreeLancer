@@ -490,4 +490,70 @@ section{
 	height: 52px;
 }
 
-/*------------------------------     ------------------------------*/
+/*------------------------------Testimonials------------------------------*/
+.testimonials {
+	height: 884px;
+}
+
+.testimonials-container {
+	width: 883px;
+	height: 100%;
+	padding: 50px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.testimonials-title {
+	font-size: 52px;
+	line-height: 62px;
+	letter-spacing: 0.2px;
+}
+
+.testimonials-body {
+	width: 100%;
+	height: 652px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.testimonials-body-items {
+	width: 430px;
+	height: 100%;
+}
+
+.testimonials-body-item {
+	border: 1px solid #DEDEDE;
+	border-radius: 10px;
+	padding: 40px 70px 40px 40px;
+}
+.testimonials-body-item:not(:last-child) {
+	margin: 0 0 10px 0;
+}
+
+.testimonials-body-item-header {
+	display: flex;
+	gap: 13px;
+}
+
+.testimonials-body-item-header-avatar {
+	width: 50px;
+	height: 50px;
+}
+
+.testimonials-body-item-header-person-name,
+.testimonials-body-item-header-person-position {
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0.2px;
+}
+
+.testimonials-body-item-text {
+	line-height: 24px;
+	letter-spacing: 0.2px;
+	margin: 30px 0 0 0;
+}
+
+/*------------------------------      ------------------------------*/
