@@ -556,4 +556,45 @@ section{
 	margin: 30px 0 0 0;
 }
 
-/*------------------------------      ------------------------------*/
+/*------------------------------Fonts------------------------------*/
+.fonts {
+	height: 530px;
+}
+
+.fonts-container {
+	width: 1219px;
+	height: 370px;
+	border-radius: 33px;
+	background-color: #343434;
+	display: flex;
+	align-items: center;	
+	justify-content: space-between;
+	overflow: hidden;
+}
+
+.fonts-body {
+	width: 544px;
+	height: 247px;
+	padding: 17px 0 17px 75px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.fonts-title {
+	font-size: 52px;
+	line-height: 62px;
+	letter-spacing: 0.2px;
+}
+
+.fonts-btn {
+	width: 232px;
+	height: 52px;
+}
+
+.fonts-img {
+	width: 589px;
+	height: 364px;
+}
+
+/*------------------------------    ------------------------------*/
